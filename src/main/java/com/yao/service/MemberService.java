@@ -4,4 +4,6 @@ import com.yao.model.Member;
 
 public interface MemberService {
 	Member getMember(Integer memberId);
+
+	Member createMember(Member member);
 }
